@@ -7,7 +7,7 @@
   <meta name="description" content="Push down all the blocks in the minimum number of moves. Exciting? Hoo boy, you bet your sweet granddaddy it is.">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Hexahedral</title>
-  <script src="bundle.js" defer></script>
+  <script src="bundle2.js" defer></script>
 
   <style>
     /* Prevent flash of unstyled content. */
@@ -18,10 +18,11 @@
 
 </head>
 <body>
-
-  <footer>
-    bits and bytes by <a href="http://matthewminer.com">Matthew Miner</a>
-  </footer>
+  <form style="text-align: center; color: white; bottom: 20px; position: relative;">
+    <label for="tokenId">Token ID: </label>
+    <input type="text" id="tokenId" name="tokenId">
+    <input type="submit" value="Save"/>
+  </form>
 
   <audio preload="auto" class="lose" src="audio/lose.mp3"></audio>
   <audio preload="auto" class="move" src="audio/move.mp3"></audio>
